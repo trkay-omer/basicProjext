@@ -2,11 +2,11 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 
 function App() {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [id, setId] = useState(null);
-  const [ekleName, setEkleName] = useState("");
-  const [ekleMail, setEkleMail] = useState("");
+  const [name, setName] = useState();
+  const [email, setEmail] = useState();
+  const [id, setId] = useState();
+  const [ekleName, setEkleName] = useState();
+  const [ekleMail, setEkleMail] = useState();
   const [degisiklik, setDegisiklik] = useState(false);
   const [Array, setArray] = useState([]);
 
